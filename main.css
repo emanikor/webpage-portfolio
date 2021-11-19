@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(207, 222, 224);
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 50px;
+    background-color: white;
+}
+
+.nav-link {
+    margin: 0.5;
+    border: 0.2em solid rgb(149, 223, 212);
+    padding: 0.2em;
+    font-size: 1.2em;
+    transition: ease-out 1s all;
+}
+
+.nav-link:hover {
+    background-color: blue;
+    color: rgb(211, 168, 138);
+}
+
+div
+{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  
+}
