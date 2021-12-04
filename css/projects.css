@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: o;
+}
+
+a {
+    text-decoration: none;
+    
+}
+body {
+    background-color: lightgrey;
+    color: blue;
+
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px 0px;
+}
+h1 {
+    background-color: black;
+    color: white;
+
+
+}
+
+footer {
+    text-align: center;
+}
+
+i {
+    padding:0.5em;
+}
+
+nav a:hover {
+    color:red;
+}
+h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  }
