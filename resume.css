@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+}
+i {
+    padding: 0.5em;
+}
+
+nav a:hover {
+    color:red;
+}
