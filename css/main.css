@@ -11,7 +11,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: rgb(214, 173, 194);
+    background-color: rgb(207, 222, 224);
 }
 .navbar{
     display: flex;
@@ -19,20 +19,20 @@ body{
     justify-content: flex-end;
     align-items: center;
     min-height: 50px;
-    background-color: rgb(208, 233, 240);
+    background-color: white;
 }
 
 .nav-link {
     margin: 0.5;
-    border: 0.2em solid rgb(86, 177, 163);
+    border: 0.2em solid rgb(149, 223, 212);
     padding: 0.2em;
     font-size: 1.2em;
     transition: ease-out 1s all;
 }
 
 .nav-link:hover {
-    background-color: rgb(90, 90, 105);
-    color: rgb(156, 116, 90);
+    background-color: blue;
+    color: rgb(211, 168, 138);
 }
 
 div
